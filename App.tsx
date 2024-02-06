@@ -16,7 +16,7 @@ export default function App() {
   );
 
   return (
-    <View>
+    <View style={styles.centerContent}>
       <Button
         onPress={updateSharedValueFromWorklet}
         title="Update shared value from different worklet"
