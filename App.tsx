@@ -12,7 +12,7 @@ export default function App() {
       'worklet';
       sharedValue.value = Math.random();
     },
-    [sharedValue],
+    [],
   );
 
   return (
